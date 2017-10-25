@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-RTD_DIR=web/themes/rtdoked
+RTD_DIR=web/themes/custom/rtdoked
 
 cp -R web/themes/contrib/bootstrap/starterkits/cdn  $RTD_DIR
 rename starterkit info $RTD_DIR/THEMENAME.starterkit.yml
