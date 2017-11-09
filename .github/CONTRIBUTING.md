@@ -25,3 +25,4 @@ Use one of the prefixes below followed by two hyphens, to prefix your branch nam
 
 ## Important links
 - [Drupal coding standards page](https://www.drupal.org/docs/develop/standards).
+- [PHP The Right Way](http://www.phptherightway.com/).
