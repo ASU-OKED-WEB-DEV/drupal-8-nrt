@@ -2,6 +2,8 @@
 
 RTD_DIR=web/themes/custom/rtdoked
 
+mkdir web/themes/custom
+
 cp -R web/themes/contrib/bootstrap/starterkits/cdn  $RTD_DIR
 rename starterkit info $RTD_DIR/THEMENAME.starterkit.yml
 find $RTD_DIR -type f -name 'THEMENAME.*' -exec rename THEMENAME rtdoked '{}' \;
