@@ -1,0 +1,55 @@
+@import 'breakpoints';
+@import 'hero';
+.content {
+    max-width:1058px;
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    line-height:25px;
+    max-width:950px;
+    color:#4A4A4A;
+    font-weight:300;
+    @include breakpoint (mobileonly) {
+        margin:15px;
+    }
+    @include breakpoint (phablet) {
+        margin:10px 20px;
+    }
+    @include breakpoint (laptop) {
+        margin: 72px 190px;
+    }
+    h2 {
+        font-size:30px;
+        color:#353535;
+        line-height:40px;
+        font-weight:bold;
+    }
+    hr {
+        border:0;
+        border-bottom: 2px dotted #FF7F32;
+        margin:39.5px auto;
+    }
+    a {
+        color:#8C1D40;
+    }
+}
+section.col-sm-12 {
+    padding-left:0px;
+    padding-right:0px;
+}
+.name.navbar-brand {
+    color:#353535;
+    padding:0 10px;
+    @include breakpoint (phablet) {
+        font-size:18px;
+        line-height:22px;
+    }
+    @include breakpoint (laptop) {
+        font-size:24px;
+        line-height:28px;
+    }
+}
+.region.region-header{
+    @include breakpoint(desktop) {
+        padding: 0 115px;
+    }
+}

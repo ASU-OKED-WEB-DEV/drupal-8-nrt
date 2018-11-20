@@ -1,0 +1,15 @@
+{% set bgimage %}
+     {{ content.field_bg_image  }}
+{% endset %}	
+<div class="hero-container" style="background-image: url({{ bgimage|striptags }}); background-size: cover; background-position: center" >
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div class="left-hero-text"><h2 class="hero-head">{{ content.field_left_text }}</h2></div>
+      </div>
+      <div class="col-6">
+        <div class="right-hero-text"><h2 class="hero-head">{{ content.field_right_text }}</h2></div>
+      </div>
+    </div>
+  </div>
+</div>

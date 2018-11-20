@@ -1,0 +1,36 @@
+{
+  "name": "nrt",
+  "version": "1.0.0",
+  "description": "A Custom Drupal 8 NRT Theme",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "@babel/core": "^7.1.6",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-shell": "^0.6.5",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-ssh": "^0.7.0",
+    "gulp-yaml-validate": "^1.0.2",
+    "node-sass": "^4.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASU-OKED-WEB-DEV/drupal-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASU-OKED-WEB-DEV/drupal-project/issues"
+  },
+  "homepage": "https://github.com/ASU-OKED-WEB-DEV/drupal-project#readme"
+}
