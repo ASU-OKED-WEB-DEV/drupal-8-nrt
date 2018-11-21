@@ -33,12 +33,16 @@
     }
 }
 section.col-sm-12 {
-    padding-left:0px;
-    padding-right:0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
+
 .name.navbar-brand {
-    color:#353535;
-    padding:0 10px;
+    display: block;
+    width: 100%;
+    color: #353535;
+    padding: 0 10px;
+
     @include breakpoint (phablet) {
         font-size:18px;
         line-height:22px;
@@ -52,4 +56,8 @@ section.col-sm-12 {
     @include breakpoint(desktop) {
         padding: 0 115px;
     }
+}
+
+#asu_search_module > form:last-of-type {
+    display: none;
 }

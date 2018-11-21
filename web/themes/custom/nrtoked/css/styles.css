@@ -100,6 +100,8 @@ section.col-sm-12 {
   padding-right: 0px; }
 
 .name.navbar-brand {
+  display: block;
+  width: 100%;
   color: #353535;
   padding: 0 10px; }
   @media (min-width: 37.5em) {
@@ -114,5 +116,8 @@ section.col-sm-12 {
 @media (min-width: 70em) {
   .region.region-header {
     padding: 0 115px; } }
+
+#asu_search_module > form:last-of-type {
+  display: none; }
 
 /*# sourceMappingURL=styles.css.map */
