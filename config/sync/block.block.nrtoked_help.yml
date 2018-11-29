@@ -1,0 +1,22 @@
+uuid: 8168093d-4341-4b22-b838-93f508299973
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - nrtoked
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: nrtoked_help
+theme: nrtoked
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

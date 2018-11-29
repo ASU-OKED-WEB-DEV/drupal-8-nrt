@@ -1,0 +1,59 @@
+uuid: eda9a513-9325-484e-a12d-4234f1990bc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hero_section.field_bg_hero_image
+    - field.field.node.hero_section.field_left_hero_text
+    - field.field.node.hero_section.field_page_ref
+    - field.field.node.hero_section.field_right_hero_text
+    - image.style.thumbnail
+    - node.type.hero_section
+  module:
+    - image
+id: node.hero_section.default
+targetEntityType: node
+bundle: hero_section
+mode: default
+content:
+  field_bg_hero_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_left_hero_text:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_page_ref:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_right_hero_text:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  title: true
+  uid: true

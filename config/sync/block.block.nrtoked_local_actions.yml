@@ -1,0 +1,20 @@
+uuid: fd36a113-d3b2-4c1e-860b-3dbc3909d703
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nrtoked
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: nrtoked_local_actions
+theme: nrtoked
+region: header
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

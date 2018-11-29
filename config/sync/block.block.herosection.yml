@@ -1,0 +1,25 @@
+uuid: 339bdb03-f3fa-447f-bddd-9419a4851408
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:home_hero_bg:7ffbdc7d-2b45-4fc0-ac01-e13759bd4068'
+  module:
+    - block_content
+  theme:
+    - bootstrap
+id: herosection
+theme: bootstrap
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:7ffbdc7d-2b45-4fc0-ac01-e13759bd4068'
+settings:
+  id: 'block_content:7ffbdc7d-2b45-4fc0-ac01-e13759bd4068'
+  label: 'Hero Section'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

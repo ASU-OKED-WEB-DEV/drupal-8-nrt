@@ -1,0 +1,19 @@
+uuid: 6fba2301-6ef8-4644-84d5-c7c48d0d04da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_left_hero_text
+    - node.type.hero_section
+id: node.hero_section.field_left_hero_text
+field_name: field_left_hero_text
+entity_type: node
+bundle: hero_section
+label: left_hero_text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

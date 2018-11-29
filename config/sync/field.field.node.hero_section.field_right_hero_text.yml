@@ -1,0 +1,19 @@
+uuid: 158d80ef-9194-466b-8140-9fedc2e68a42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_right_hero_text
+    - node.type.hero_section
+id: node.hero_section.field_right_hero_text
+field_name: field_right_hero_text
+entity_type: node
+bundle: hero_section
+label: right_hero_text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

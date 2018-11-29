@@ -1,0 +1,22 @@
+uuid: 9c672d06-6ef7-476d-a46d-4bf7778ba81a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nrtoked
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: nrtoked_local_tasks
+theme: nrtoked
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

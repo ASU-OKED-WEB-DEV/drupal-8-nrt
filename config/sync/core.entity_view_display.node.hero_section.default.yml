@@ -1,0 +1,53 @@
+uuid: 7f5b2396-2a15-40f7-b0f8-cee8207e3cdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hero_section.field_bg_hero_image
+    - field.field.node.hero_section.field_left_hero_text
+    - field.field.node.hero_section.field_page_ref
+    - field.field.node.hero_section.field_right_hero_text
+    - node.type.hero_section
+  module:
+    - image
+    - user
+id: node.hero_section.default
+targetEntityType: node
+bundle: hero_section
+mode: default
+content:
+  field_bg_hero_image:
+    weight: 0
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_left_hero_text:
+    weight: 1
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_page_ref:
+    weight: 3
+    label: visually_hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_right_hero_text:
+    weight: 2
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  links: true

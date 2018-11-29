@@ -1,0 +1,25 @@
+uuid: f1fb8901-ba6c-4bd3-8dc8-4403841371f4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:home_hero_bg:7ffbdc7d-2b45-4fc0-ac01-e13759bd4068'
+  module:
+    - block_content
+  theme:
+    - nrtoked
+id: herosection_2
+theme: nrtoked
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:7ffbdc7d-2b45-4fc0-ac01-e13759bd4068'
+settings:
+  id: 'block_content:7ffbdc7d-2b45-4fc0-ac01-e13759bd4068'
+  label: 'Hero Section'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

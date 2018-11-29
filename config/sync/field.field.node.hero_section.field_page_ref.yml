@@ -1,0 +1,28 @@
+uuid: cc64f97e-0d7f-4598-81c9-801b32080b55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_ref
+    - node.type.hero_section
+    - node.type.page
+id: node.hero_section.field_page_ref
+field_name: field_page_ref
+entity_type: node
+bundle: hero_section
+label: 'Page Ref'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      page: page
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

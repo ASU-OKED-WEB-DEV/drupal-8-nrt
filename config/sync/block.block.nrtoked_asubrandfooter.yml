@@ -1,0 +1,20 @@
+uuid: 3221392f-46db-408d-967a-859c3376d19f
+langcode: en
+status: true
+dependencies:
+  module:
+    - asu_brand
+  theme:
+    - nrtoked
+id: nrtoked_asubrandfooter
+theme: nrtoked
+region: footer
+weight: -5
+provider: null
+plugin: asu_brand_footer
+settings:
+  id: asu_brand_footer
+  label: 'ASU Brand: Footer'
+  provider: asu_brand
+  label_display: '0'
+visibility: {  }

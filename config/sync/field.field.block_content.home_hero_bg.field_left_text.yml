@@ -1,0 +1,19 @@
+uuid: 162cc3ac-8aa8-473c-807b-4038e21f5744
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home_hero_bg
+    - field.storage.block_content.field_left_text
+id: block_content.home_hero_bg.field_left_text
+field_name: field_left_text
+entity_type: block_content
+bundle: home_hero_bg
+label: 'Left Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

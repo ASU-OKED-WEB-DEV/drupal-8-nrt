@@ -1,0 +1,38 @@
+uuid: 38f4017d-68f6-4ee7-b32d-949cc25f75a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home_hero_bg
+    - field.storage.block_content.field_bg_image
+  module:
+    - image
+id: block_content.home_hero_bg.field_bg_image
+field_name: field_bg_image
+entity_type: block_content
+bundle: home_hero_bg
+label: 'BG Image'
+description: 'Upload image to be used as the background to the homepage.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 6b77b093-a3f0-4893-b632-d4d897ccc7e9
+    alt: ''
+    title: ''
+    width: 1451
+    height: 964
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

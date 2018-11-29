@@ -1,0 +1,25 @@
+uuid: 6e61a91b-00a9-45af-99b8-1b328431829c
+langcode: en
+status: true
+dependencies:
+  module:
+    - asu_brand
+  theme:
+    - bootstrap
+id: asubrandheader
+theme: bootstrap
+region: header
+weight: -6
+provider: null
+plugin: asu_brand_header
+settings:
+  id: asu_brand_header
+  label: 'ASU Brand: Header'
+  provider: asu_brand
+  label_display: '0'
+  menu_injection_flag: 1
+  menu_name: main
+  asu_gtm: 1
+  custom_gtm: 0
+  custom_gtm_id: ''
+visibility: {  }
