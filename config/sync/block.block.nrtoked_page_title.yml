@@ -1,0 +1,20 @@
+uuid: 7599f21a-819e-4389-970a-ede6c461e3e4
+langcode: en
+status: false
+dependencies:
+  theme:
+    - nrtoked
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: nrtoked_page_title
+theme: nrtoked
+region: header
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

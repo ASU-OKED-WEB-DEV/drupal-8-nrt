@@ -1,0 +1,22 @@
+uuid: 823cc1da-8439-4775-8088-f8e4140deca0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nrtoked
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: nrtoked_content
+theme: nrtoked
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

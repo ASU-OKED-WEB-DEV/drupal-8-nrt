@@ -1,0 +1,41 @@
+uuid: 90e574dc-ff98-43b3-8a0d-44d1a4be764c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home_hero_bg
+    - field.field.block_content.home_hero_bg.field_bg_image
+    - field.field.block_content.home_hero_bg.field_left_text
+    - field.field.block_content.home_hero_bg.field_right_text
+  module:
+    - image
+id: block_content.home_hero_bg.default
+targetEntityType: block_content
+bundle: home_hero_bg
+mode: default
+content:
+  field_bg_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_left_text:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_right_text:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

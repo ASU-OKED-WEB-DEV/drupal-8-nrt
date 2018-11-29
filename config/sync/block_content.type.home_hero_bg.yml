@@ -1,0 +1,8 @@
+uuid: d409cc90-5894-4b0a-bf7a-514518f07be1
+langcode: en
+status: true
+dependencies: {  }
+id: home_hero_bg
+label: 'Home Hero'
+revision: 0
+description: 'Background for homepage hero.'

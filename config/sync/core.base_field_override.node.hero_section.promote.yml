@@ -1,0 +1,22 @@
+uuid: ce109665-6efd-4027-806d-1e668c6a75a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hero_section
+id: node.hero_section.promote
+field_name: promote
+entity_type: node
+bundle: hero_section
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

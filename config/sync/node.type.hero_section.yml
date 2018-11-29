@@ -1,0 +1,18 @@
+uuid: 6528d8e6-a76c-4dfa-9118-e9300b4c9aeb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Hero Section'
+type: hero_section
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

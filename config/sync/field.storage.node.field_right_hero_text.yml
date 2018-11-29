@@ -1,0 +1,21 @@
+uuid: 4d2b3693-ff5b-4bf4-8873-fff2076cef57
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_right_hero_text
+field_name: field_right_hero_text
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
