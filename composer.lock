@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a9382642bb2450bcf60c70002bfcef7",
+    "content-hash": "b591dd4db50cf880a6ef16b186ff5c5c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -83,7 +83,7 @@
         },
         {
             "name": "asu/rtd_footer",
-            "version": "8.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ASU-OKED-WEB-DEV/RTD-Footer",

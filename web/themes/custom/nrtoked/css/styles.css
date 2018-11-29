@@ -120,4 +120,8 @@ section.col-sm-12 {
 #asu_search_module > form:last-of-type {
   display: none; }
 
+.footer {
+  padding: 0;
+  border-top: none; }
+
 /*# sourceMappingURL=styles.css.map */

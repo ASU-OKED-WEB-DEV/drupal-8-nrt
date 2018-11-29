@@ -30,7 +30,7 @@
 
     "require": {
         "asu/asu_brand": "8.x",
-        "asu/rtd_footer": "8.x-dev",
+        "asu/rtd_footer": "dev-master",
         "asu/rtd_toolbox": "8.x",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
