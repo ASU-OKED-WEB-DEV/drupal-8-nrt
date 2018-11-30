@@ -1,21 +1,22 @@
 @import 'breakpoints';
 @import 'hero';
 .content {
-    max-width:1058px;
     font-family: 'Roboto', sans-serif;
     font-size:18px;
     line-height:25px;
-    max-width:950px;
+    width:950px;
     color:#4A4A4A;
     font-weight:300;
+    margin: 72px auto;
     @include breakpoint (mobileonly) {
-        margin:15px;
+        margin:15px auto;
     }
     @include breakpoint (phablet) {
-        margin:10px 20px;
+        margin:10px auto;
+        max-width: 90%;
     }
     @include breakpoint (laptop) {
-        margin: 72px 190px;
+        margin: 72px auto;
     }
     h2 {
         font-size:30px;
@@ -42,6 +43,7 @@ section.col-sm-12 {
     width: 100%;
     color: #353535;
     padding: 0 10px;
+    font-weight: 500;
 
     @include breakpoint (phablet) {
         font-size:18px;
@@ -60,4 +62,8 @@ section.col-sm-12 {
 
 #asu_search_module > form:last-of-type {
     display: none;
+}
+.footer {
+  padding: 0;
+    border-top: none;
 }

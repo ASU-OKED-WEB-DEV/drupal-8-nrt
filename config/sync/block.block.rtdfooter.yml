@@ -1,0 +1,35 @@
+uuid: bc113cd3-c194-4d71-8f67-157c7cae366f
+langcode: en
+status: true
+dependencies:
+  module:
+    - rtd_footer
+  theme:
+    - nrtoked
+id: rtdfooter
+theme: nrtoked
+region: footer
+weight: -6
+provider: null
+plugin: rtd_footer
+settings:
+  id: rtd_footer
+  label: 'RTD Footer'
+  provider: rtd_footer
+  label_display: '0'
+  brand_logo:
+    value: ''
+    0: '9'
+  address:
+    value: "<h1>Office of Knowledge Enterprise Development</h1>\r\n\r\n<p>300 E University Drive<br />\r\nPO Box 877205<br />\r\nTempe, AZ 85287-7205</p>\r\n"
+    format: full_html
+  phone: '480-965-1225 | Fax: 480-965-8293'
+  middle_column:
+    value: ''
+    format: full_html
+  menu: 0
+  social_media:
+    facebook: ''
+    twitter: ''
+    instagram: ''
+visibility: {  }

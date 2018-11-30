@@ -24,10 +24,14 @@ BREAKPOINTS
     @media (max-width: 37.5em) {
       .hero-container .container {
         margin-top: 54px; } }
+    @media (min-width: 37.5em) {
+      .hero-container .container {
+        max-width: 90%;
+        width: 100%; } }
     @media (min-width: 64em) {
       .hero-container .container {
         margin-bottom: 45px;
-        max-width: 1033px; } }
+        max-width: 954px; } }
     .hero-container .container .row {
       display: flex;
       flex-flow: row wrap; }
@@ -67,22 +71,23 @@ BREAKPOINTS
               padding: 5px; } }
 
 .content {
-  max-width: 1058px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 25px;
-  max-width: 950px;
+  width: 950px;
   color: #4A4A4A;
-  font-weight: 300; }
+  font-weight: 300;
+  margin: 72px auto; }
   @media (max-width: 37.5em) {
     .content {
-      margin: 15px; } }
+      margin: 15px auto; } }
   @media (min-width: 37.5em) {
     .content {
-      margin: 10px 20px; } }
+      margin: 10px auto;
+      max-width: 90%; } }
   @media (min-width: 64em) {
     .content {
-      margin: 72px 190px; } }
+      margin: 72px auto; } }
   .content h2 {
     font-size: 30px;
     color: #353535;
@@ -103,7 +108,8 @@ section.col-sm-12 {
   display: block;
   width: 100%;
   color: #353535;
-  padding: 0 10px; }
+  padding: 0 10px;
+  font-weight: 500; }
   @media (min-width: 37.5em) {
     .name.navbar-brand {
       font-size: 18px;
@@ -119,5 +125,9 @@ section.col-sm-12 {
 
 #asu_search_module > form:last-of-type {
   display: none; }
+
+.footer {
+  padding: 0;
+  border-top: none; }
 
 /*# sourceMappingURL=styles.css.map */

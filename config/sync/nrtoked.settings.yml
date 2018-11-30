@@ -1,8 +1,8 @@
 favicon:
-  mimetype: image/vnd.microsoft.icon
-  path: ''
+  mimetype: image/png
+  path: themes/custom/nrtoked/favicon.png
   url: 'http://localhost:32800/themes/contrib/bootstrap/favicon.ico'
-  use_default: true
+  use_default: false
 features:
   comment_user_picture: true
   comment_user_verification: true
@@ -15,3 +15,4 @@ logo:
 schemas:
   bootstrap: 8000
   nrtoked: 8000
+table: ''

@@ -19,11 +19,15 @@
     .container {
         align-self: flex-end;
         @include breakpoint(mobileonly) {
-                margin-top: 54px;
+            margin-top: 54px;
+        }
+        @include breakpoint (phablet) {
+            max-width: 90%;
+            width: 100%;
         }
         @include breakpoint (laptop) {
             margin-bottom:45px;
-            max-width:1033px;
+            max-width:954px;
         }
         .row {
             display: flex;
