@@ -70,8 +70,10 @@ BREAKPOINTS
             .hero-container .container .row .col-6 .right-hero-text {
               padding: 5px; } }
 
+body {
+  font-family: 'Roboto', sans-serif; }
+
 .content {
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 25px;
   width: 950px;
@@ -80,7 +82,8 @@ BREAKPOINTS
   margin: 72px auto; }
   @media (max-width: 37.5em) {
     .content {
-      margin: 15px auto; } }
+      margin: 15px auto;
+      max-width: 90%; } }
   @media (min-width: 37.5em) {
     .content {
       margin: 10px auto;
@@ -109,7 +112,7 @@ section.col-sm-12 {
   width: 100%;
   color: #353535;
   padding: 0 10px;
-  font-weight: 500; }
+  font-weight: bold; }
   @media (min-width: 37.5em) {
     .name.navbar-brand {
       font-size: 18px;
@@ -129,5 +132,18 @@ section.col-sm-12 {
 .footer {
   padding: 0;
   border-top: none; }
+
+.border-bottom {
+  background-image: linear-gradient(to right, #FF7F32 33%, rgba(255, 127, 50, 0) 0%);
+  background-position: bottom;
+  background-size: 10px 2px;
+  background-repeat: repeat-x;
+  padding-bottom: 42px;
+  padding-right: 20px;
+  margin-bottom: 39px; }
+
+.indent {
+  padding-left: 30px;
+  margin: 20px 0; }
 
 /*# sourceMappingURL=styles.css.map */
