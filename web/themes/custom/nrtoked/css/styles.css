@@ -106,7 +106,8 @@ body {
     border-bottom: 2px dotted #FF7F32;
     margin: 39.5px auto; }
   .content a {
-    color: #8C1D40; }
+    color: #8C1D40;
+    font-weight: 400; }
 
 section.col-sm-12 {
   padding-left: 0px;
