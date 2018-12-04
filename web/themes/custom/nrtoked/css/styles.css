@@ -136,7 +136,8 @@ section.col-sm-12 {
 
 .footer {
   padding: 0;
-  border-top: none; }
+  border-top: none;
+  margin-top: 0; }
 
 .section {
   padding: 0 20px 42px;
