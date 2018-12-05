@@ -6,4 +6,13 @@ id: editor
 label: Editor
 weight: -7
 is_admin: null
-permissions: {  }
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create page content'
+  - 'delete any page content'
+  - 'edit any page content'
+  - 'edit own page content'
+  - 'revert page revisions'
+  - 'use text format full_html'
+  - 'view page revisions'
