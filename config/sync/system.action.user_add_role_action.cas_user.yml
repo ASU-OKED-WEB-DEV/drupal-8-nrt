@@ -1,0 +1,14 @@
+uuid: 6c1da10f-3055-4da1-87f1-cf4c3ec00469
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cas_user
+  module:
+    - user
+id: user_add_role_action.cas_user
+label: 'Add the cas user role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: cas_user
