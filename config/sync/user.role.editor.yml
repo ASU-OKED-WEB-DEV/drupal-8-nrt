@@ -1,0 +1,18 @@
+uuid: ba1f1e56-130c-47e6-9fb8-d8de88cb8ff8
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: -7
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create page content'
+  - 'delete any page content'
+  - 'edit any page content'
+  - 'edit own page content'
+  - 'revert page revisions'
+  - 'use text format full_html'
+  - 'view page revisions'

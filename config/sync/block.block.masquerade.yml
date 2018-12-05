@@ -1,0 +1,26 @@
+uuid: 38580311-4128-4d7a-adfb-173b3020d2f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - masquerade
+    - system
+  theme:
+    - nrtoked
+id: masquerade
+theme: nrtoked
+region: content
+weight: 0
+provider: null
+plugin: masquerade
+settings:
+  id: masquerade
+  label: Masquerade
+  provider: masquerade
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /switcheroo
+    negate: false
+    context_mapping: {  }
