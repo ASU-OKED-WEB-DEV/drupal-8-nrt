@@ -1,15 +1,18 @@
 @import 'breakpoints';
 @import 'hero';
-.content {
+body {
     font-family: 'Roboto', sans-serif;
+}
+.content {
     font-size:18px;
     line-height:25px;
-    width:950px;
+    width:990px;
     color:#4A4A4A;
     font-weight:300;
     margin: 72px auto;
     @include breakpoint (mobileonly) {
         margin:15px auto;
+        max-width: 90%;
     }
     @include breakpoint (phablet) {
         margin:10px auto;
@@ -31,6 +34,7 @@
     }
     a {
         color:#8C1D40;
+        font-weight: 400;
     }
 }
 section.col-sm-12 {
@@ -43,7 +47,7 @@ section.col-sm-12 {
     width: 100%;
     color: #353535;
     padding: 0 10px;
-    font-weight: 500;
+    font-weight: bold;
 
     @include breakpoint (phablet) {
         font-size:18px;
@@ -64,6 +68,21 @@ section.col-sm-12 {
     display: none;
 }
 .footer {
-  padding: 0;
+    padding: 0;
     border-top: none;
+    margin-top: 0;
+}
+.section {
+    padding: 0 20px 42px;
+    margin-bottom: 39px;
+}
+.border-bottom {
+    background-image: linear-gradient(to right, #FF7F32 33%, rgba(255,127,50,0) 0%);
+    background-position: bottom;
+    background-size: 10px 2px;
+    background-repeat: repeat-x;
+}
+.indent {
+    padding-left: 30px;
+    margin: 20px 0;
 }

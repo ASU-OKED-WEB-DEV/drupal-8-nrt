@@ -2,7 +2,8 @@
 BREAKPOINTS
 *********************/
 .hero-container {
-  display: flex; }
+  display: flex;
+  position: relative; }
   @media (max-width: 37.5em) {
     .hero-container {
       height: 200px;
@@ -23,7 +24,9 @@ BREAKPOINTS
     align-self: flex-end; }
     @media (max-width: 37.5em) {
       .hero-container .container {
-        margin-top: 54px; } }
+        position: absolute;
+        bottom: 10px;
+        width: 100%; } }
     @media (min-width: 37.5em) {
       .hero-container .container {
         max-width: 90%;
@@ -37,7 +40,8 @@ BREAKPOINTS
       flex-flow: row wrap; }
       @media (max-width: 37.5em) {
         .hero-container .container .row {
-          display: block; } }
+          display: block;
+          width: 100%; } }
       .hero-container .container .row .col-6 {
         flex: 0 1 auto;
         font-weight: bold;
@@ -45,7 +49,8 @@ BREAKPOINTS
         @media (max-width: 37.5em) {
           .hero-container .container .row .col-6 {
             display: block;
-            text-align: center; } }
+            width: 100%;
+            padding-left: 5%; } }
         .hero-container .container .row .col-6 h2 {
           margin: 0; }
           @media (min-width: 64em) {
@@ -70,17 +75,20 @@ BREAKPOINTS
             .hero-container .container .row .col-6 .right-hero-text {
               padding: 5px; } }
 
+body {
+  font-family: 'Roboto', sans-serif; }
+
 .content {
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 25px;
-  width: 950px;
+  width: 990px;
   color: #4A4A4A;
   font-weight: 300;
   margin: 72px auto; }
   @media (max-width: 37.5em) {
     .content {
-      margin: 15px auto; } }
+      margin: 15px auto;
+      max-width: 90%; } }
   @media (min-width: 37.5em) {
     .content {
       margin: 10px auto;
@@ -98,7 +106,8 @@ BREAKPOINTS
     border-bottom: 2px dotted #FF7F32;
     margin: 39.5px auto; }
   .content a {
-    color: #8C1D40; }
+    color: #8C1D40;
+    font-weight: 400; }
 
 section.col-sm-12 {
   padding-left: 0px;
@@ -109,7 +118,7 @@ section.col-sm-12 {
   width: 100%;
   color: #353535;
   padding: 0 10px;
-  font-weight: 500; }
+  font-weight: bold; }
   @media (min-width: 37.5em) {
     .name.navbar-brand {
       font-size: 18px;
@@ -128,6 +137,21 @@ section.col-sm-12 {
 
 .footer {
   padding: 0;
-  border-top: none; }
+  border-top: none;
+  margin-top: 0; }
+
+.section {
+  padding: 0 20px 42px;
+  margin-bottom: 39px; }
+
+.border-bottom {
+  background-image: linear-gradient(to right, #FF7F32 33%, rgba(255, 127, 50, 0) 0%);
+  background-position: bottom;
+  background-size: 10px 2px;
+  background-repeat: repeat-x; }
+
+.indent {
+  padding-left: 30px;
+  margin: 20px 0; }
 
 /*# sourceMappingURL=styles.css.map */

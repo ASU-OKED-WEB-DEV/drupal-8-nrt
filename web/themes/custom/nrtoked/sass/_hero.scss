@@ -1,5 +1,6 @@
 .hero-container {
     display:flex;
+    position: relative;
     @include breakpoint(mobileonly) {
         height: 200px;
         display:block;
@@ -19,7 +20,9 @@
     .container {
         align-self: flex-end;
         @include breakpoint(mobileonly) {
-            margin-top: 54px;
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
         }
         @include breakpoint (phablet) {
             max-width: 90%;
@@ -34,6 +37,7 @@
             flex-flow: row wrap;
             @include breakpoint(mobileonly) {
                 display:block;
+                width: 100%;
             }
             .col-6 {
                 flex: 0 1 auto;
@@ -41,7 +45,8 @@
                 color:#ffffff;
                 @include breakpoint(mobileonly) {
                     display: block;
-                    text-align:center
+                    width: 100%;
+                    padding-left: 5%;
                 }
                 h2 {
                     margin:0;
