@@ -68,6 +68,12 @@ AddEncoding gzip svgz
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
+  
+  # Redirect non-HTTPS traffic to HTTPS.
+  RewriteCond %{HTTP_HOST} asu.edu
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
   # Set "protossl" to "s" if we were accessed via https://.  This is used later
   # if you enable "www." stripping or enforcement, in order to ensure that
@@ -186,4 +192,8 @@ AddEncoding gzip svgz
   Header always set X-Content-Type-Options nosniff
   # Disable Proxy header, since it's an attack vector.
   RequestHeader unset Proxy
+</IfModule>
+
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php72 .php
 </IfModule>
